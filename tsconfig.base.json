@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nova/api/data-access-db": ["libs/api/data-access-db/src/index.ts"],
+      "@nova/api/generated-db-types": [
+        "libs/api/generated-db-types/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
